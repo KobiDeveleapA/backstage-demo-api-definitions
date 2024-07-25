@@ -1,0 +1,47 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: weather-team
+  description: Team responsible for the Weather Service API
+spec:
+  type: team
+  profile:
+    displayName: Weather Team
+    email: weather-team@example.com
+  parent: default-org
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: library-team
+  description: Team responsible for the Book Library API
+spec:
+  type: team
+  profile:
+    displayName: Library Team
+    email: library-team@example.com
+  parent: default-org
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: auth-team
+  description: Team responsible for the User Authentication API
+spec:
+  type: team
+  profile:
+    displayName: Auth Team
+    email: auth-team@example.com
+  parent: default-org
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: default-org
+  description: The default organization
+spec:
+  type: organization
+  profile:
+    displayName: Our Organization
+    email: info@example.com

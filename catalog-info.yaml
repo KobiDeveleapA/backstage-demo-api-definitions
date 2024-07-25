@@ -8,3 +8,4 @@ spec:
     - ./weather-service-api.yaml
     - ./book-library-api.yaml
     - ./user-auth-api.yaml
+    - ./groups.yaml
