@@ -10,7 +10,7 @@ spec:
   profile:
     displayName: Weather Team
     email: weather-team@example.com
-  parent: default-org
+    #  parent: default-org
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -23,7 +23,7 @@ spec:
   profile:
     displayName: Library Team
     email: library-team@example.com
-  parent: default-org
+    #parent: default-org
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -36,7 +36,7 @@ spec:
   profile:
     displayName: Auth Team
     email: auth-team@example.com
-  parent: default-org
+    #  parent: default-org
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
