@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: user-authentication
+  description: gRPC API for user authentication and authorization
+  tags:
+    - grpc
+    - auth
+    - internal
+spec:
+  type: grpc
+  lifecycle: production
+  owner: auth-team
+  definition:
+    $text: https://raw.githubusercontent.com/KobiDeveleapA/backstage-demo-api-definitions/main/auth.proto

@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: book-library
+  description: GraphQL API for managing a book library
+  tags:
+    - graphql
+    - library
+    - internal
+spec:
+  type: graphql
+  lifecycle: production
+  owner: library-team
+  definition:
+    $text: https://raw.githubusercontent.com/KobiDeveleapA/backstage-demo-api-definitions/main/schema.graphql
