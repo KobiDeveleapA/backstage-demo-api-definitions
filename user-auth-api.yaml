@@ -10,6 +10,6 @@ metadata:
 spec:
   type: grpc
   lifecycle: production
-  owner: group:default/auth-team
+  owner: group:auth-team
   definition:
     $text: https://raw.githubusercontent.com/KobiDeveleapA/backstage-demo-api-definitions/main/auth.proto
