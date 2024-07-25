@@ -12,4 +12,4 @@ spec:
   lifecycle: production
   owner: weather-team
   definition:
-    $text: https://raw.githubusercontent.com/your-org/weather-service/main/openapi.yaml
+    $text: https://raw.githubusercontent.com/KobiDeveleapA/backstage-demo-api-definitions/main/openapi.yaml?token=GHSAT0AAAAAACUAFRM6WW3AXZYLEKA36ALAZVCL5FA

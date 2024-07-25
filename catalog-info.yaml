@@ -6,5 +6,5 @@ metadata:
 spec:
   targets:
     - ./weather-service-api.yaml
-    - ./book-library-api.yaml
-    - ./user-auth-api.yaml
+    #    - ./book-library-api.yaml
+    #    - ./user-auth-api.yaml
