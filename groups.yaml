@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: weather-team
+  namespace: default
   description: Team responsible for the Weather Service API
 spec:
   type: team
@@ -15,6 +16,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: library-team
+  namespace: default
   description: Team responsible for the Book Library API
 spec:
   type: team
@@ -27,6 +29,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: auth-team
+  namespace: default
   description: Team responsible for the User Authentication API
 spec:
   type: team
@@ -39,6 +42,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: default-org
+  namespace: default
   description: The default organization
 spec:
   type: organization

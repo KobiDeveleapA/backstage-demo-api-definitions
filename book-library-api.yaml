@@ -10,6 +10,6 @@ metadata:
 spec:
   type: graphql
   lifecycle: production
-  owner: library-team
+  owner: group:default/library-team
   definition:
     $text: https://raw.githubusercontent.com/KobiDeveleapA/backstage-demo-api-definitions/main/schema.graphql

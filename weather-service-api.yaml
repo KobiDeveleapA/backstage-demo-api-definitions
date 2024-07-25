@@ -10,6 +10,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: weather-team
+  owner: group:default/weather-team
   definition:
     $text: https://raw.githubusercontent.com/KobiDeveleapA/backstage-demo-api-definitions/main/openapi.yaml
