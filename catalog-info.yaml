@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: api-definitions
+  description: Our API definitions
+spec:
+  targets:
+    - ./weather-service-api.yaml
+    - ./book-library-api.yaml
+    - ./user-auth-api.yaml

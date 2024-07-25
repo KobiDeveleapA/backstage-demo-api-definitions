@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: weather-service
+  description: RESTful API for retrieving weather information
+  tags:
+    - rest
+    - weather
+    - public
+spec:
+  type: openapi
+  lifecycle: production
+  owner: weather-team
+  definition:
+    $text: https://raw.githubusercontent.com/your-org/weather-service/main/openapi.yaml

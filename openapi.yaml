@@ -1,0 +1,62 @@
+openapi: 3.0.0
+info:
+  title: Weather Service API
+  description: API for retrieving weather information
+  version: 1.0.0
+servers:
+  - url: https://api.weatherservice.com/v1
+paths:
+  /current:
+    get:
+      summary: Get current weather
+      parameters:
+        - in: query
+          name: city
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:    
+              schema:
+                type: object
+                properties:
+                  temperature:
+                    type: number
+                  humidity:
+                    type: number
+                  description:
+                    type: string
+  /forecast:
+    get:
+      summary: Get weather forecast
+      parameters:
+        - in: query
+          name: city
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: days
+          required: false
+          schema:
+            type: integer
+            default: 5
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:    
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    date:
+                      type: string
+                    temperature:
+                      type: number
+                    description:
+                      type: string
