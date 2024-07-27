@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: book-library
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/kobideveleapa/backstage-demo-api-definitions/tree/main/book-library-service/docs
+    backstage.io/techdocs-ref: ./book-library
   description: GraphQL API for managing a book library
   tags:
     - graphql
