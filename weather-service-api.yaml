@@ -5,6 +5,10 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/KobiDeveleapA/backstage-demo-api-definitions/tree/main/weather-service
   description: RESTful API for retrieving weather information
+  links:
+    - url: https://weatherservice.com
+      title: WeatherService Home
+      icon: dashboard
   tags:
     - rest
     - weather
