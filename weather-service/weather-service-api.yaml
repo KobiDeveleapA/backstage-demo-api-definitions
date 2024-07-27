@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: weather-service
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:./weather-service
   description: RESTful API for retrieving weather information
   tags:
     - rest
