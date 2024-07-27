@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: book-library
   annotations:
-    backstage.io/techdocs-ref: ./book-library
+    backstage.io/techdocs-ref: dir:./book-library
   description: GraphQL API for managing a book library
   tags:
     - graphql
