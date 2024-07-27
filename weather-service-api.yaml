@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: weather-service
   annotations:
-    backstage.io/techdocs-ref: dir:./weather-service
+    backstage.io/techdocs-ref: url:https://github.com/KobiDeveleapA/backstage-demo-api-definitions/tree/main/weather-service
   description: RESTful API for retrieving weather information
   tags:
     - rest
