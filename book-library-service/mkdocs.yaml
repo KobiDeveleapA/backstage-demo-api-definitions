@@ -1,0 +1,6 @@
+site_name: 'Book Library Service API'
+nav:
+  - Home: index.md
+  - API Details: api-details.md
+plugins:
+  - techdocs-core
