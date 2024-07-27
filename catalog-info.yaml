@@ -5,7 +5,7 @@ metadata:
   description: Our API definitions
 spec:
   targets:
-    - ./weather-service-api.yaml
+    - ./weather-service/weather-service-api.yaml
     - ./book-library-api.yaml
     - ./user-auth-api.yaml
     - ./groups.yaml

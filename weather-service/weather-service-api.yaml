@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: weather-service
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   description: RESTful API for retrieving weather information
   tags:
     - rest
